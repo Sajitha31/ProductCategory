@@ -1,7 +1,7 @@
 # Coding Assessment L-2 Product Category 
 
 1. **Execution**
-   - To run the code click on this link : 
+   - To run the code click on this link : [https://sajitha31.github.io/ProductCategory/](https://sajitha31.github.io/ProductCategory/)
      ```
    - Alternatively, download the code as a ZIP file, then extract and run it in your system.
 
@@ -19,6 +19,4 @@
 - `README.md`     : Documentation of the project.
 
 ---
-
-1. Fill out the form provided at [this link](https://forms.gle/MxuzmExHGXBh3hVk8).
 
