@@ -1,22 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <!-- REPLACE THIS WITH YOUR PROJECT NAME. EXAMPLE - Category tabs -->
-    <title>Coding Assesment L2 boilerplate</title>
-
+    <link rel="shortcut icon" type="x-icon" href="images/tab.svg">
+    <title>Category Tab</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <!-- Your code goes here -->
+    <div class="container">
+        <h1 style="margin-top: 75px; margin-bottom: 10px; text-shadow: 0 8px 7px #9c9a9a;">SELECT YOUR CHOICE</h1>
+        <div style="display: flex; align-items: center; justify-content: center;">
+            <div class="tabs">
+                <button class="tab-button" onclick="showCategory('men')"><img class="icon" src="images/boy2.svg">Men</button>
+                <button class="tab-button" onclick="showCategory('women')"><img class="icon" src="images/girl2.svg">Women</button>
+                <button class="tab-button" onclick="showCategory('kids')"><img class="icon" src="images/kid2.svg">Kids</button>
+            </div>
+        </div>
+        <div id="men" class="product-container"></div>
+        <div id="women" class="product-container"></div>
+        <div id="kids" class="product-container"></div>
+    </div>
     <div class="container">
         <a href="https://github.com/mmdmrishabh/Coding-assessment-l2-Boilerplate-code/blob/main/Readme.md" target="_blank">Read how to work with boilerplate</a>
     </div>
-    <!-- Happy coding 😊 -->
-    <script src="./script.js"></script>
+     <!-- Happy coding 😊 -->
+    <script src="script.js"></script>
 </body>
-
 </html>
